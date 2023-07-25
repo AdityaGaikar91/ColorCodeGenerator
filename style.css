@@ -1,0 +1,20 @@
+@import url(https://db.onlinewebfonts.com/c/4679956de12dd2d8fc06ed0333e1d21b?family=Proxima+Soft);
+
+* {
+  font-family: "Proxima Soft";
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+.main{
+  height: 100vh;
+  width: 100%;
+}
+
+nav{
+  width: 100vw;
+  position: fixed;
+  height: fit-content;
+  background-color: #ffffff;
+}

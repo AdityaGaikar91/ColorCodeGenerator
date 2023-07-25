@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ColorPicker</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>ColorPicker</title>
+        <link rel="stylesheet" href="./styles/style.css" />
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+          crossorigin="anonymous"
+        />
+
+        <!-- One of the following themes -->
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/themes/classic.min.css"
+        />
+        <!-- 'classic' theme -->
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/themes/monolith.min.css"
+        />
+        <!-- 'monolith' theme -->
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/themes/nano.min.css"
+        />
+        <!-- 'nano' theme -->
+      </head>
+      <body>
+        <nav>Navbar</nav>
+        <div
+        class="main d-flex flex-column justify-content-center align-items-center"
+        id="backGround"
+        style="height: 100vh; background-color: #b0b0bb"
+        >
+          <div
+            class="conatiner w-50 d-flex rounded-4 gap-4 overflow-hidden shadow-lg bg-white align-items-end pe-5 py-5"
+          >
+            <div class="d-flex align-items-center w-50">
+              <input
+                type="text"
+                name="text"
+                id="colorText"
+                style="height: fit-content; width: 145px"
+                value="CODE IS HERE"
+                class="text-start mx-5 px-4 border-0 justify-content-around"
+                disabled
+              />
+              <div class="color-picker"></div>
+            </div>
+            <div class="bg-dark-subtle h-100 w-50 rounded-3 p-2">
+              <div class="wrapper my-2">
+                <input
+                  type="text"
+                  name="HexText"
+                  class="w-50 border-0 rounded-2 mx-3"
+                  id="hexa"
+                  style="height: 30px"
+                  disabled
+                />
+                <button
+                  role="button"
+                  id="hexaCodeBtn"
+                  class="btn btn-dark py-1"
+                >
+                  Copy
+                </button>
+              </div>
+              <div class="wrapper my-2">
+                <input
+                  type="text"
+                  name="rgbaColorText"
+                  class="w-50 border-0 rounded-2 mx-3"
+                  id="rgba"
+                  style="height: 30px"
+                  disabled
+                />
+                <button
+                  role="button"
+                  id="rgbaCodeBtn"
+                  class="btn btn-dark py-1"
+                >
+                  Copy
+                </button>
+              </div>
+              <div class="wrapper my-2">
+                <input
+                  type="text"
+                  name="hslaColorText"
+                  class="w-50 border-0 rounded-2 mx-3"
+                  id="hsla"
+                  style="height: 30px"
+                  disabled
+                />
+                <button
+                  role="button"
+                  id="hslaCodeBtn"
+                  class="btn btn-dark py-1"
+                >
+                  Copy
+                </button>
+              </div>
+              <div class="wrapper my-2">
+                <input
+                  type="text"
+                  name="hsvaColorText"
+                  class="w-50 border-0 rounded-2 mx-3"
+                  id="hsva"
+                  style="height: 30px"
+                  disabled
+                />
+                <button
+                  role="button"
+                  id="hsvaCodeBtn"
+                  class="btn btn-dark py-1"
+                >
+                  Copy
+                </button>
+              </div>
+              <div class="wrapper my-2">
+                <input
+                  type="text"
+                  name="cmykColorText"
+                  class="w-50 border-0 rounded-2 mx-3"
+                  id="cmyk"
+                  style="height: 30px"
+                  disabled
+                />
+                <button
+                  role="button"
+                  id="cmykCodeBtn"
+                  class="btn btn-dark py-1"
+                >
+                  Copy
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modern or es5 bundle -->
+        <script src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.es5.min.js"></script>
+
+        <script src="./script.js"></script>
+      </body>
+    </html>
+  </head>
+</html>
