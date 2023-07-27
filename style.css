@@ -18,3 +18,8 @@ nav{
   height: fit-content;
   background-color: #ffffff;
 }
+
+img{
+  position: relative;
+  left: 260px; 
+}
